@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', function () {
     { render: function () {
         return d.div({}
           , d.h1({'data-am-title': ''}, 'PDXNodeSchool')
-          , d.h2({'data-am-title': ''}, 'comming soon')
+          , d.h2({'data-am-title': ''}, 'coming soon')
           , d.div({'data-am-title': ''}
             , d.a(
               {href: 'https://docs.google.com/forms/d/1jLbqymJ57VFL05rzBZp2BQ7ksY2MVmY_lVg4xzEMJD8/viewform'}
