@@ -8,7 +8,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="red" />
 <style>
 body {
-  background: lime;
+  background: #00e0d8; /* Old browsers */
+  background: -moz-linear-gradient(left,  #00e0d8 48%, #db2e2e 49%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(48%,#00e0d8), color-stop(49%,#db2e2e)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #00e0d8 48%,#db2e2e 49%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #00e0d8 48%,#db2e2e 49%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #00e0d8 48%,#db2e2e 49%); /* IE10+ */
+  background: linear-gradient(to right,  #00e0d8 48%,#db2e2e 49%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e0d8', endColorstr='#db2e2e',GradientType=1 ); /* IE6-9 */
   font-size: 200%;
 }
 canvas {
